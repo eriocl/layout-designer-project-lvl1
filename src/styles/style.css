@@ -5,7 +5,6 @@
 }
 
 @font-face {
-  font-weight: normal;
   font-family: 'Open Sans';
   src: url('../fonts/OpenSans-Regular.ttf');
 }
@@ -24,7 +23,9 @@ h3,
 .h2,
 .h3,
 .h4 {
+  font-weight: normal;
   font-family: "Neucha", sans-serif;
+  font-style: normal;
   line-height: 1.2em;
 }
 
@@ -52,9 +53,27 @@ h3,
 .card {
   box-sizing: border-box;
 
-  width: 350px;
+  width: 31.53%;
 
   padding: 24px;
+}
+
+.card-link {
+  box-sizing: border-box;
+
+  text-decoration: none;
+}
+
+.card-link:hover {
+  background-color: #fe8a02;
+}
+
+.card-link:hover > div {
+  color: #fff;
+}
+
+.card-link:hover > div > h3 {
+  color: #fff;
 }
 
 .size {
@@ -67,12 +86,6 @@ h3,
   font-size: 64px;
   font-family: Neucha, sans-serif;
   line-height: 1;
-}
-
-.card-link {
-  box-sizing: border-box;
-
-  text-decoration: none;
 }
 
 .bg-standart::before {
@@ -99,7 +112,7 @@ h3,
   position: absolute;
 
   top: 55px;
-  right: -270px;
+  right: -103.81px;
 
   height: 525px;
 }
@@ -172,8 +185,8 @@ header .btn {
 
   font-weight: bold;
   font-size: 14px;
-
   font-family: "Open Sans", sans-serif;
+  line-height: 17px;
 }
 
 .input-email {
@@ -248,6 +261,10 @@ header .btn {
   margin: 0;
 }
 
+.mt-22 {
+  margin-top: 22px;
+}
+
 .mb-0 {
   margin-bottom: 0;
 }
@@ -296,6 +313,10 @@ header .btn {
 
 .fs-12 {
   font-size: 12px;
+}
+
+.fs-52 {
+  font-size: 52px;
 }
 
 .fw-normal {
