@@ -116,23 +116,22 @@ h3,
 
 .btn {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  width: 148px;
+  height: 49px;
 
   margin-top: 40px;
   padding: 12px 24px 12px 24px;
-  box-sizing: border-box;
 
   color: #fff;
   font-weight: 700;
 
-  width: 148px;
-  height: 49px;
-
   font-size: 16px;
 
   text-decoration: none;
-
 }
 
 .columns-container {
@@ -182,7 +181,6 @@ h3,
   font-weight: 700;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
-  line-height: 17px;
   text-transform: uppercase;
 }
 
