@@ -19,6 +19,7 @@ html {
 h1,
 h2,
 h3,
+h4,
 .h1,
 .h2,
 .h3,
@@ -74,10 +75,6 @@ h3,
 
 .card-link:hover > div > h3 {
   color: #fff;
-}
-
-.size {
-  width: inherit;
 }
 
 .card-num {
@@ -184,7 +181,6 @@ header .btn {
   padding: 5px 0 5px 10px;
 
   font-weight: bold;
-  font-size: 14px;
   font-family: "Open Sans", sans-serif;
   line-height: 17px;
 }
@@ -297,8 +293,8 @@ header .btn {
   margin-bottom: 185px;
 }
 
-.mt-minus-200 {
-  margin-top: -84px;
+.mt-minus-100 {
+  margin-top: -100px;
 }
 
 .text-center {
@@ -355,11 +351,15 @@ header .btn {
 /* -----------------------------Colors-------------------------------------- */
 
 .white-color {
-  color: #fff;
+  color: #ffffff;
 }
 
 .white-50-color {
   color: #d7ccc0;
+}
+
+.bg-white-50 {
+  background-color: #d7ccc0;
 }
 
 .light-color {
