@@ -129,8 +129,6 @@ h3,
   color: #fff;
   font-weight: 700;
 
-  font-size: 16px;
-
   text-decoration: none;
 }
 
@@ -139,12 +137,8 @@ h3,
   gap: 30px;
 }
 
-.column {
-  flex: 1 1 45%;
-}
-
-.col-100 {
-  flex: 1 1 100%;
+.col-50 {
+  flex: 1 1 50%;
 }
 
 .section {
@@ -181,7 +175,6 @@ h3,
   font-weight: 700;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
-  text-transform: uppercase;
 }
 
 .input-email {
@@ -235,10 +228,6 @@ h3,
 }
 
 /* -----------------------------Positions-------------------------------------- */
-
-.pos-rel {
-  position: relative;
-}
 
 .mt-0 {
   margin-top: 0;
@@ -314,10 +303,6 @@ h3,
   font-size: 52px;
 }
 
-.fw-normal {
-  font-weight: normal;
-}
-
 /* -----------------------------Box-model-------------------------------------- */
 .d-block {
   display: block;
@@ -379,10 +364,6 @@ h3,
 
 .bg-main {
   background-color: #fe8a02;
-}
-
-.main-dark-color {
-  color: #42413c;
 }
 
 .bg-main-dark {
