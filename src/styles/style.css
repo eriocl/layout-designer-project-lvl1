@@ -115,14 +115,14 @@ h3,
 }
 
 .btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
 
   box-sizing: border-box;
   padding: 12px 24px 12px 24px;
 
+  color: #fff;
   font-weight: bold;
+
   text-decoration: none;
 }
 
@@ -133,7 +133,7 @@ h3,
 header .btn {
   width: 148px;
   height: 49px;
-  margin-top: 40px;
+  margin-top: 24px;
 }
 
 .columns-container {
@@ -178,9 +178,10 @@ header .btn {
 
   margin-top: 100px;
   margin-bottom: 20px;
-  padding: 5px 0 5px 10px;
+  padding: 6px 0 4px 10px;
 
   font-weight: bold;
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
   line-height: 17px;
 }
@@ -351,7 +352,7 @@ header .btn {
 /* -----------------------------Colors-------------------------------------- */
 
 .white-color {
-  color: #ffffff;
+  color: #fff;
 }
 
 .white-50-color {
